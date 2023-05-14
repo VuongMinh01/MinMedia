@@ -99,7 +99,7 @@ export default function FooterTest() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                             <p>
                                 <MDBIcon icon="home" className="me-2" />
-                                New York, NY 10012, US
+                                Hoc Mon, Ho Chi Minh City
                             </p>
                             <p>
                                 <MDBIcon icon="envelope" className="me-3" />
@@ -117,10 +117,9 @@ export default function FooterTest() {
             </section>
 
             <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                © 2021 Copyright:
-                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-                    MDBootstrap.com
-                </a>
+                © 2023 Copyright:
+                <a className='text-reset fw-bold' href='/'>
+                    MinMedia                </a>
             </div>
         </MDBFooter>
     );
