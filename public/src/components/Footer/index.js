@@ -1,44 +1,127 @@
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import { SocialIcon } from 'react-social-icons';
-// import { Link } from "react-router-dom";
-// import '../../css/Footer.css'
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
+import { MDBIcon } from 'mdbreact';
 
-// import '../../css/Footer.css'
-// export default function Footer() {
-//     return (
-//         <Container fluid style={{ textAlign: 'center', paddingTop: '10px', backgroundColor: '#EDBB99' }}>
 
-//             <Row>
-//                 <Col xs={12} sm={4}>
-//                     <h2>LINKS</h2>
-//                     <div className='test' style={{ display: "grid", fontSize: "25px", textAlign: "center" }}>
-//                         <h3 ><Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>Home</Link></h3>
-//                         <h3><Link to="/service" style={{ textDecoration: 'none', color: '#fff' }}>SERVICES</Link></h3>
-//                         <h3><Link to="/video" style={{ textDecoration: 'none', color: '#fff' }}>VIDEOS</Link></h3>
-//                         <h3><Link to="/album" style={{ textDecoration: 'none', color: '#fff' }}>ALBUM</Link></h3>
+export default function FooterTest() {
+    return (
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+            <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+                <div className='me-5 d-none d-lg-block'>
+                    <span>Liên lạc với tôi qua các trang mạng xã hội:</span>
+                </div>
 
-//                     </div>
-//                 </Col>
-//                 <Col xs={12} sm={4}>
-//                     <h2 >Min Media</h2>
-//                     <h3>Hotline: 0xxx xxx xxx</h3>
-//                     <h3>Facebook: Thien Phan</h3>
-//                 </Col>
+                <div>
+                    <a href='//facebook.com/CuuNonxx' className='me-4 text-reset'>
+                        <MDBIcon fab icon="facebook-f" />
+                    </a>
+                    <a href='facebook.com' className='me-4 text-reset'>
+                        <MDBIcon fab icon="twitter" />
+                    </a>
+                    <a href='facebook.com' className='me-4 text-reset'>
+                        <MDBIcon fab icon="google" />
+                    </a>
+                    <a href='facebook.com' className='me-4 text-reset'>
+                        <MDBIcon fab icon="instagram" />
+                    </a>
 
-//                 <Col xs={12} sm={4}>
-//                     <h2>MEDIA</h2>
-//                     <div style={{ display: "grid", textAlign: "center" }}>
+                </div>
+            </section>
 
-//                         <SocialIcon url='facebook.com' style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block', marginBottom: '5px' }}></SocialIcon>
-//                         <SocialIcon url='youtube.com' style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block', marginBottom: '5px' }}></SocialIcon>
+            <section className=''>
+                <MDBContainer className='text-center text-md-start mt-5'>
+                    <MDBRow className='mt-3'>
+                        <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>
+                                <MDBIcon icon="gem" className="me-3" />
+                                Min Media
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit.
+                            </p>
+                        </MDBCol>
 
-//                     </div>
-//                 </Col>
-//             </Row>
+                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    Angular
+                                </a>
+                            </p>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    React
+                                </a>
+                            </p>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    Vue
+                                </a>
+                            </p>
+                            <p>
+                                <a href='#!' className='text-reset'>
+                                    Laravel
+                                </a>
+                            </p>
+                        </MDBCol>
 
-//         </Container>
-//     );
-// }
+                        <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                            <p>
+                                <a href='/' className='text-reset'>
+                                    Home
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/service' className='text-reset'>
+                                    Services
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/video' className='text-reset'>
+                                    Videos
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/album' className='text-reset'>
+                                    Albums
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/contact' className='text-reset'>
+                                    Contact
+                                </a>
+                            </p>
+                        </MDBCol>
 
+                        <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                            <p>
+                                <MDBIcon icon="home" className="me-2" />
+                                New York, NY 10012, US
+                            </p>
+                            <p>
+                                <MDBIcon icon="envelope" className="me-3" />
+                                info@example.com
+                            </p>
+                            <p>
+                                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                            </p>
+                            <p>
+                                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                            </p>
+                        </MDBCol>
+                    </MDBRow>
+                </MDBContainer>
+            </section>
+
+            <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                © 2021 Copyright:
+                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+                    MDBootstrap.com
+                </a>
+            </div>
+        </MDBFooter>
+    );
+}
