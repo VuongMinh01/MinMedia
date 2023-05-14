@@ -18,14 +18,16 @@ export default function Header() {
                         >
                         </Image>
                     </Col>
-                    <Divider />
 
                     <Col sm={12} xs={12} >
-                        <div>
+                        <div >
+                            <Divider />
+
                             <NavBar />
+                            <Divider />
+
                         </div>
                     </Col>
-                    <Divider />
                 </Row>
             </Container>
         </>
