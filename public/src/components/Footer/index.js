@@ -12,19 +12,18 @@ export default function FooterTest() {
                 </div>
 
                 <div>
-                    <a href='//facebook.com/CuuNonxx' className='me-4 text-reset'>
+                    <a href='//facebook.com/CuuNonxx' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </a>
-                    <a href='facebook.com' className='me-4 text-reset'>
+                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
                         <MDBIcon fab icon="twitter" />
                     </a>
-                    <a href='facebook.com' className='me-4 text-reset'>
+                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
                         <MDBIcon fab icon="google" />
                     </a>
-                    <a href='facebook.com' className='me-4 text-reset'>
+                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
                         <MDBIcon fab icon="instagram" />
                     </a>
-
                 </div>
             </section>
 
