@@ -5,11 +5,10 @@ import Service from './pages/Service'
 import Video from './pages/Video'
 import Contact from './pages/Contact'
 import Header from './components/Header'
-import HomeVideo from './components/HomeVideo'
-import HomeImage from './components/HomeImage'
 import Album from './pages/Album'
 import Footer from './components/Footer'
-import Videos from './components/Videos'
+import Album1 from './components/Albums/Album1'
+import Album2 from './components/Albums/Album2'
 import Album3 from './components/Albums/Album3'
 function App() {
   return (
@@ -20,13 +19,12 @@ function App() {
           <Route path="/footer" element={<Footer />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
-          <Route path="/homevideo" element={<HomeVideo />} />
-          <Route path="/homeimage" element={<HomeImage />} />
           <Route path="/service" element={<Service />} />
-          <Route path="/album" element={<Album />} />
+          <Route path="/albums" element={<Album />} />
           <Route path="/video" element={<Video />} />
-          <Route path="/videos" element={<Videos />} />
-          <Route path="/album/album3" element={<Album3 />} />
+          <Route path="/albums/album1" element={<Album1 />} />
+          <Route path="/albums/album2" element={<Album2 />} />
+          <Route path="/albums/album3" element={<Album3 />} />
 
 
         </Routes>

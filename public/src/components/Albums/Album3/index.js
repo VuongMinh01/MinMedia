@@ -36,8 +36,6 @@ export default function Album3() {
                     </Col>
                     <Col sm={4} xs={12}>
                         <Image
-                            onClick={Album3}
-
                             className='Image'
                             src={Test3} alt={Test3} width={360}
                             height={360} ></Image>

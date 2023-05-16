@@ -8,8 +8,14 @@ import { useNavigate } from "react-router-dom";
 export default function AlbumImage() {
     const navigate = useNavigate();
 
+    const Album1 = () => {
+        navigate('/albums/album1')
+    }
+    const Album2 = () => {
+        navigate('/albums/album2')
+    }
     const Album3 = () => {
-        navigate('/album/album3')
+        navigate('/albums/album3')
     }
     return (
         <Container >
@@ -24,6 +30,8 @@ export default function AlbumImage() {
             <Row>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        onClick={Album1}
+
                         width={360}
                         height={360}
                         src={Test1} alt={Test1}
@@ -31,6 +39,8 @@ export default function AlbumImage() {
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        onClick={Album2}
+
                         src={Test2} alt={Test2} width={360}
                         height={360} ></Image>
 

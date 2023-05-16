@@ -9,6 +9,7 @@ export default function HomeImage() {
     return (
         <Container fluid>
             <Row >
+                {/* 3 khung ảnh đầu tiên */}
                 <Col sm={4} xs={12}>
                     <Image className='Image'
                         width={360}
@@ -29,40 +30,19 @@ export default function HomeImage() {
 
                 </Col>
             </Row>
-            <Row>
-                <Col sm={4} xs={12}>
-                    <Image className='Image'
-                        width={360}
-                        height={360}
-                        src={Test1} alt={Test1}
-                    ></Image>
-                </Col>
-                <Col sm={4} xs={12}>
-                    <Image className='Image'
-                        src={Test2} alt={Test2} width={360}
-                        height={360} ></Image>
 
-                </Col>
+            <Row>
+                {/* Khung ảnh giữa */}
                 <Col sm={4} xs={12}>
+
                     <Image className='Image'
                         src={Test3} alt={Test3} width={360}
-                        height={360} ></Image>
+                    ></Image>
 
-                </Col>
-            </Row>
-            <Row>
+                    <Image className='Image'
+                        src={Test3} alt={Test3} width={360}
+                    ></Image>
 
-                <Col sm={4} xs={12}>
-                    <Row>
-                        <Image className='Image'
-                            src={Test3} alt={Test3} width={360}
-                            height={240} ></Image>
-                    </Row>
-                    <Row>
-                        <Image className='Image'
-                            src={Test3} alt={Test3} width={360}
-                            height={240} ></Image>
-                    </Row>
                 </Col>
                 <Col>
                     <Image className='Image'
@@ -71,16 +51,36 @@ export default function HomeImage() {
 
                 </Col>
                 <Col sm={4} xs={12}>
-                    <Row>
-                        <Image className='Image'
-                            src={Test3} alt={Test3} width={360}
-                            height={240} ></Image>
-                    </Row>
-                    <Row>
-                        <Image className='Image'
-                            src={Test3} alt={Test3} width={360}
-                            height={240} ></Image>
-                    </Row>
+
+                    <Image className='Image'
+                        src={Test3} alt={Test3} width={360}
+                        height={240} ></Image>
+
+                    <Image className='Image'
+                        src={Test3} alt={Test3} width={360}
+                        height={240} ></Image>
+
+                </Col>
+            </Row>
+            <Row>
+                <Col sm={4} xs={12}>
+                    <Image className='Image'
+                        width={360}
+                        height={360}
+                        src={Test1} alt={Test1}
+                    ></Image>
+                </Col>
+                <Col sm={4} xs={12}>
+                    <Image className='Image'
+                        src={Test2} alt={Test2} width={360}
+                        height={360} ></Image>
+
+                </Col>
+                <Col sm={4} xs={12}>
+                    <Image className='Image'
+                        src={Test3} alt={Test3} width={360}
+                        height={360} ></Image>
+
                 </Col>
             </Row>
         </Container>
