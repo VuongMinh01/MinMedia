@@ -4,8 +4,13 @@ import { Image } from 'antd';
 import Test1 from '../../assets/SBIN0813.jpg'
 import Test2 from '../../assets/SBIN0837.jpg'
 import Test3 from '../../assets/SBIN0804.JPG'
-import '../../css/HomeImage.css'
+import { useNavigate } from "react-router-dom";
 export default function AlbumImage() {
+    const navigate = useNavigate();
+
+    const Album3 = () => {
+        navigate('/album/album3')
+    }
     return (
         <Container >
             <Row >
@@ -31,7 +36,10 @@ export default function AlbumImage() {
 
                 </Col>
                 <Col sm={4} xs={12}>
-                    <Image className='Image'
+                    <Image
+                        onClick={Album3}
+
+                        className='Image'
                         src={Test3} alt={Test3} width={360}
                         height={360} ></Image>
 
