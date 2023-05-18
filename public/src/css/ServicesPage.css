@@ -24,9 +24,15 @@
     margin-right: auto;
     display: block;
     box-shadow: 5px 10px;
-
+    padding: 5px;
 }
 
 .col-inform {
     padding: 10px;
+}
+
+.col-inform h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+
 }

@@ -1,8 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 // import { Image } from "antd"
-import Test from '../../assets/SBIN0813.jpg'
-import BackGroundService from '../../assets/backgroundService.gif'
 import '../../css/ServicesPage.css'
 export default function ServicesPage() {
     return (
@@ -15,7 +13,7 @@ export default function ServicesPage() {
 
                         sm={4} xs={12}>
                         <div className="service-inform">
-                            <h3>CHỤP ẢNH</h3>
+                            <h2>CHỤP ẢNH</h2>
                             <p>fsdf</p>
                             <h3>Camera</h3>
                             <p>fsdf</p>
@@ -33,7 +31,7 @@ export default function ServicesPage() {
                         sm={4} xs={12}>
                         <div className="service-inform">
 
-                            <h3>QUAY PHIM</h3>
+                            <h2>QUAY PHIM</h2>
                             <p>fsdf</p>
                             <h3>Camera</h3>
                             <p>fsdf</p>
@@ -50,7 +48,7 @@ export default function ServicesPage() {
 
                         <div className="service-inform">
 
-                            <h3>FLY CAM</h3>
+                            <h2>FLY CAM</h2>
                             <p>fsdf</p>
                             <h3>Camera</h3>
                             <p>fsdf</p>
