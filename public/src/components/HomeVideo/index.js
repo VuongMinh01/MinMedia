@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import VideoTest from '../../assets/test.mov'
 import ReactPlayer from 'react-player';
 export default function HomeVideo() {
     return (

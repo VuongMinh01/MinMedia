@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import VideoTest from '../../assets/test.mov'
 import ReactPlayer from 'react-player';
 import '../../css/Videos.css'
 export default function Videos() {
@@ -15,7 +14,7 @@ export default function Videos() {
                 <Row>
                     <Col sm={4} xs={12}>
                         <ReactPlayer
-                            style={{ padding: '10px' }}
+                            className='video'
                             url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
                             width="100%"
                             height="420px"
@@ -26,7 +25,7 @@ export default function Videos() {
                     </Col>
                     <Col sm={4} xs={12}>
                         <ReactPlayer
-                            style={{ padding: '10px' }}
+                            className='video'
 
                             url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
                             width="100%"
@@ -38,7 +37,7 @@ export default function Videos() {
                     </Col>
                     <Col sm={4} xs={12}>
                         <ReactPlayer
-                            style={{ padding: '10px' }}
+                            className='video'
 
                             url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
                             width="100%"
@@ -49,8 +48,7 @@ export default function Videos() {
                         />
                     </Col>
                 </Row>
-                <Col sm={12} xs={12}>
-                </Col>
+
             </Container>
 
         </>

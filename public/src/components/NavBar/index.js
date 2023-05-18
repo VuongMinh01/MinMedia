@@ -6,25 +6,13 @@ import '../../css/NavBar.css'
 function NavBar() {
     return (
         <Navbar bg="" expand="lg" >
-            <Container fluid
-                style={{
-                    backgroundColor: '#EDBB99',
-                    borderRadius: '10px',
-                    border: 'solid 0.1px'
-                }}>
+            <Container fluid className='homeNav'
+            >
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" >
                     <Nav
-                        className="me-auto my-2 my-lg-0"
-                        style={{
-                            maxHeight: '100px',
-                            marginLeft: 'auto',
-                            marginRight: 'auto',
-                            fontSize: '25px',
-                            fontFamily: 'Times New Roman',
-                            fontStyle: 'bold',
-                            fontWeight: 'bolder'
-                        }}
+                        className="me-auto my-2 my-lg-0 nav-customr"
+
                         navbarScroll
                     >
                         <Nav.Link href="/"  >HOME</Nav.Link>

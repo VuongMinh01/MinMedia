@@ -1,0 +1,15 @@
+.nav-customr {
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+.homeNav {
+    background-color: #EDBB99;
+    border-radius: '10px';
+    border: solid 0.1px;
+}
