@@ -10,7 +10,7 @@ export default function HomeContact() {
             <Container>
                 <Row>
                     <Col sm={7} xs={12}>
-                        <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+                        <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
                         <Row>
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="map-marker-alt" size='3x' />

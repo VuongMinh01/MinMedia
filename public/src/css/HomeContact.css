@@ -1,3 +1,9 @@
 .Image {
     padding: 10px;
 }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+}

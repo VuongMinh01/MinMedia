@@ -12,17 +12,11 @@ export default function FooterTest() {
                 </div>
 
                 <div>
-                    <a href='//facebook.com/CuuNonxx' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
+                    <a href='https://www.facebook.com/MinMinMedia01?mibextid=LQQJ4d' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
                         <MDBIcon fab icon="facebook-f" />
                     </a>
-                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
-                        <MDBIcon fab icon="twitter" />
-                    </a>
-                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
-                        <MDBIcon fab icon="google" />
-                    </a>
-                    <a href='facebook.com' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
-                        <MDBIcon fab icon="instagram" />
+                    <a href='https://www.youtube.com/@thien_minweddingfilm6102' target='_blank' rel='noopener noreferrer' className='me-4 text-reset'>
+                        <MDBIcon fab icon="youtube" />
                     </a>
                 </div>
             </section>
@@ -41,29 +35,7 @@ export default function FooterTest() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Angular
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    React
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Vue
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Laravel
-                                </a>
-                            </p>
-                        </MDBCol>
+
 
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
@@ -78,7 +50,7 @@ export default function FooterTest() {
                                 </a>
                             </p>
                             <p>
-                                <a href='/video' className='text-reset'>
+                                <a href='/videos' className='text-reset'>
                                     Videos
                                 </a>
                             </p>
@@ -105,11 +77,9 @@ export default function FooterTest() {
                                 info@example.com
                             </p>
                             <p>
-                                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                                <MDBIcon icon="phone" className="me-3" /> 0703427959
                             </p>
-                            <p>
-                                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-                            </p>
+
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>

@@ -17,7 +17,7 @@ function NavBar() {
                     >
                         <Nav.Link href="/"  >HOME</Nav.Link>
                         <Nav.Link href="/service">SERVICES</Nav.Link>
-                        <Nav.Link href="/video">VIDEOS</Nav.Link>
+                        <Nav.Link href="/videos">VIDEOS</Nav.Link>
 
                         <Nav.Link href="/albums">ALBUMS</Nav.Link>
 
