@@ -1,8 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { MDBIcon } from 'mdbreact';
-
-
+import PhoneRing from '../../components/PhoneRing'
 export default function FooterTest() {
     return (
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -90,6 +89,8 @@ export default function FooterTest() {
                 <a className='text-reset fw-bold' href='/'>
                     MinMedia                </a>
             </div>
+            <PhoneRing />
         </MDBFooter>
+
     );
 }

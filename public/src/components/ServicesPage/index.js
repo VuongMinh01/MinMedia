@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Container, Image } from "react-bootstrap";
 import { Button } from 'antd'
 import '../../css/ServicesPage.css'
-import ReactPlayer from 'react-player';
 import { useNavigate } from "react-router-dom";
 export default function ServicesPage() {
     const navigate = useNavigate();

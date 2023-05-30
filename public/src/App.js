@@ -13,7 +13,7 @@ import Album3 from './components/Albums/Album3'
 import Picture from './components/ServicePackage/Picture'
 import Filming from './components/ServicePackage/Filming'
 import Flycam from './components/ServicePackage/Flycam'
-
+import PhoneRing from './components/PhoneRing'
 function App() {
   return (
     <div>
@@ -32,6 +32,7 @@ function App() {
           <Route path="/ServicePackage/Picture" element={<Picture />} />
           <Route path="/ServicePackage/Filming" element={<Filming />} />
           <Route path="/ServicePackage/Flycam" element={<Flycam />} />
+          <Route path="/PhoneRing" element={<PhoneRing />} />
 
 
         </Routes>
