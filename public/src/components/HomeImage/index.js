@@ -12,6 +12,7 @@ export default function HomeImage() {
                 {/* 3 khung ảnh đầu tiên */}
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
                         width={360}
                         height={360}
                         src={Test1} alt={Test1}
@@ -19,12 +20,16 @@ export default function HomeImage() {
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
+
                         src={Test2} alt={Test2} width={360}
                         height={360} ></Image>
 
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                         height={360} ></Image>
 
@@ -36,16 +41,22 @@ export default function HomeImage() {
                 <Col sm={4} xs={12}>
 
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                     ></Image>
 
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                     ></Image>
 
                 </Col>
                 <Col>
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                         height={480} ></Image>
 
@@ -53,10 +64,14 @@ export default function HomeImage() {
                 <Col sm={4} xs={12}>
 
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                         height={240} ></Image>
 
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                         height={240} ></Image>
 
@@ -65,6 +80,8 @@ export default function HomeImage() {
             <Row>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
+
                         width={360}
                         height={360}
                         src={Test1} alt={Test1}
@@ -72,12 +89,16 @@ export default function HomeImage() {
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
+
                         src={Test2} alt={Test2} width={360}
                         height={360} ></Image>
 
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
+                        preview={false}
+
                         src={Test3} alt={Test3} width={360}
                         height={360} ></Image>
 

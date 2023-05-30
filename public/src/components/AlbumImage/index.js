@@ -22,6 +22,7 @@ export default function AlbumImage() {
             <Row >
                 <Col sm={12} xs={12}>
                     <Image className='Image'
+                        preview={false}
 
                         src={Test1} alt={Test1}
                     ></Image>
