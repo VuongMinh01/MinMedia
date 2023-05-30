@@ -70,38 +70,7 @@ export default function ServicesPage() {
                         </div>
                     </Col>
                 </Row>
-                <Row className="background-phim">
-                    <Col sm={12} xs={12}>
 
-                        <center>
-
-                            <h3>Phim truyền thống</h3>
-                        </center>
-                        <ReactPlayer
-                            url='https://www.youtube.com'
-                            width="100%"
-                            height="420px"
-                            playing={false}
-                            controls={true}
-
-                        />
-
-                    </Col>
-                    <Col sm={12} xs={12}>
-                        <center>
-
-                            <h3>Phim phóng sự</h3>
-                        </center>
-                        <ReactPlayer
-                            url='https://www.youtube.com'
-                            width="100%"
-                            height="420px"
-                            playing={false}
-                            controls={true}
-
-                        />
-                    </Col>
-                </Row>
             </Container>
         </>
     )

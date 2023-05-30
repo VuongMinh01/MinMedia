@@ -3,6 +3,8 @@ import Header from '../../Header'
 import Footer from '../../Footer'
 import { Container, Row, Col } from "react-bootstrap";
 import '../../../css/Filming.css'
+import ReactPlayer from 'react-player';
+
 export default function Filming() {
     return (
         <Container fluid>
@@ -34,6 +36,36 @@ export default function Filming() {
                             <p>5</p>
                             <p>6</p>
                         </div>
+                    </Col>
+                </Row>
+                <Row className="background-phim">
+                    <Col sm={12} xs={12}>
+
+                        <center>
+
+                            <h3>Phim truyền thống</h3>
+                        </center>
+                        <ReactPlayer
+                            url='https://www.youtube.com'
+                            width="100%"
+                            height="420px"
+                            playing={false}
+                            controls={true}
+
+                        />
+
+                    </Col>
+                    <Col sm={12} xs={12}>
+                        <center>
+                            <h3>Phim phóng sự</h3>
+                        </center>
+                        <ReactPlayer
+                            url='https://www.youtube.com'
+                            width="100%"
+                            height="420px"
+                            playing={false}
+                            controls={true}
+                        />
                     </Col>
                 </Row>
             </Container>
