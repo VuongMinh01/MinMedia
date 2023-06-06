@@ -5,6 +5,7 @@ import Test1 from '../../assets/SBIN0813.jpg'
 export default function ServiceImage() {
     return (
         <Container fluid>
+            {/* Phần ảnh trong Service nằm dưới 3 gói */}
             <Row style={{ backgroundColor: '#F6D389', padding: '10px' }}>
                 <Col sm={4} xs={12}>
                     <Image

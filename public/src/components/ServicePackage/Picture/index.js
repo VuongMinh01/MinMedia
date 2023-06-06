@@ -8,7 +8,7 @@ import '../../../css/Picture.css'
 import Test1 from '../../../assets/SBIN0813.jpg'
 export default function Picture() {
     return (
-
+        // Thông tin về gói chụp ảnh
         <Container fluid>
 
             <Header />

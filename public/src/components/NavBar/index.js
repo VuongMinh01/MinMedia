@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
+        // Thanh menu chính, nằm trong page header
         <Navbar bg="" expand="lg" >
             <Container fluid className='homeNav'
             >

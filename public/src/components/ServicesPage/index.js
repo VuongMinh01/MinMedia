@@ -16,6 +16,7 @@ export default function ServicesPage() {
     }
     return (
         <>
+            {/* Thông tin về 3 gói dịch vụ trong Service */}
             <Container fluid>
                 <Row
                     className="backgroundImage"

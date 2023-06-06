@@ -1,15 +1,16 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router";
-import React from "react";
-export default function ScrollToTop() {
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
-    const location = useLocation();
+const ScrollToTop = () => {
+    // Khi di chuyển page sẽ cuộn lên đầu trang 
+
+    // Extracts pathname property(key) from an object
+    const { pathname } = useLocation();
+
+    // Automatically scrolls to top whenever pathname changes
     useEffect(() => {
-        window.history.scrollRestoration = 'manual'
-    }, []);
-    return (
-        <>
-        </>
-    )
-};
+        window.scrollTo(0, 0);
+    }, [pathname]);
+}
 
+export default ScrollToTop;

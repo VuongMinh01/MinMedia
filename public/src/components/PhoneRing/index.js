@@ -3,6 +3,7 @@ import '../../css/PhoneRing.css'
 export default function PhoneRing() {
     return (
         <>
+            {/* Nút gọi điện trong footer */}
             <div class="hotline-phone-ring-wrap">
                 <div class="hotline-phone-ring">
                     <div class="hotline-phone-ring-circle"></div>

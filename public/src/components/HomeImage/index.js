@@ -7,6 +7,7 @@ import Test3 from '../../assets/SBIN0804.JPG'
 import '../../css/HomeImage.css'
 export default function HomeImage() {
     return (
+        // Hình ảnh trong file page Home
         <Container fluid >
             <Row >
                 {/* 3 khung ảnh đầu tiên */}

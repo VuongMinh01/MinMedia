@@ -7,6 +7,7 @@ import '../../css/HomeContact.css'
 export default function HomeContact() {
     return (
         <>
+            {/* Thông tin file page Contact */}
             <Container>
                 <Row>
                     <Col sm={7} xs={12}>

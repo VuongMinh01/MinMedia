@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 export default function HomeVideo() {
     return (
 
-
+        // Video thứ nhất trong file Home
 
         <Container fluid >
             <ReactPlayer

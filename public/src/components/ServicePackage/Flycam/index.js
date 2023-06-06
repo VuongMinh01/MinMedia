@@ -6,6 +6,7 @@ import '../../../css/Flycam.css'
 import ReactPlayer from "react-player";
 export default function Flycam() {
     return (
+        // Thông tin về gói flycam
         <Container fluid>
 
             <Header />

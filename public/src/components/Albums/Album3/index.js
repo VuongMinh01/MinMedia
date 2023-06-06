@@ -10,6 +10,7 @@ import Footer from '../../../components/Footer'
 export default function Album3() {
     return (
         <>
+            {/* Album ảnh 3 */}
             <Container fluid >
                 <Header />
                 <Image.PreviewGroup preview={{

@@ -7,6 +7,7 @@ import ReactPlayer from 'react-player';
 
 export default function Filming() {
     return (
+        // Thông tin về gói quay phim
         <Container fluid>
 
             <Header />

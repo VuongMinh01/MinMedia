@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import ReactPlayer from 'react-player';
 export default function HomeVideo2() {
     return (
-
+        // Video thứ 2 trong file Home
 
 
         <Container fluid>

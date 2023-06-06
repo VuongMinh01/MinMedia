@@ -4,8 +4,11 @@ import { MDBIcon } from 'mdbreact';
 import { Link } from 'react-router-dom';
 import PhoneRing from '../../components/PhoneRing'
 export default function FooterTest() {
+    // Footer
     return (
+
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+
             <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
                 <div className='me-5 d-none d-lg-block'>
                     <span>Liên lạc với tôi qua các trang mạng xã hội:</span>
@@ -55,7 +58,7 @@ export default function FooterTest() {
                                 </Link>
                             </p>
                             <p>
-                                <Link to='/album' className='text-reset'>
+                                <Link to='/albums' className='text-reset'>
                                     Albums
                                 </Link>
                             </p>

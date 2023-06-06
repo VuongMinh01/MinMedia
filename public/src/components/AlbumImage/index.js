@@ -18,6 +18,7 @@ export default function AlbumImage() {
         navigate('/albums/album3')
     }
     return (
+        // Trang ảnh Album, dùng để liên kết các ảnh album
         <Container >
             <Row >
                 <Col sm={12} xs={12}>

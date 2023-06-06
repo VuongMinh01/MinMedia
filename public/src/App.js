@@ -16,7 +16,9 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+
         <Routes>
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
           <Route path="/service" element={<Service />} />
