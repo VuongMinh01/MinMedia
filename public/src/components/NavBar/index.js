@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
 import '../../css/NavBar.css'
+import { NavLink } from "react-router-dom";
+
 function NavBar() {
     return (
         <Navbar bg="" expand="lg" >
@@ -15,13 +17,13 @@ function NavBar() {
 
                         navbarScroll
                     >
-                        <Nav.Link href="/"  >HOME</Nav.Link>
-                        <Nav.Link href="/service">SERVICES</Nav.Link>
-                        <Nav.Link href="/videos">VIDEOS</Nav.Link>
+                        <NavLink className='NavLinkCss' to="/"  >HOME</NavLink>
+                        <NavLink className='NavLinkCss' to="/service">SERVICES</NavLink>
+                        <NavLink className='NavLinkCss' to="/videos">VIDEOS</NavLink>
 
-                        <Nav.Link href="/albums">ALBUMS</Nav.Link>
+                        <NavLink className='NavLinkCss' to="/albums">ALBUMS</NavLink>
 
-                        <Nav.Link href="/contact">CONTACT</Nav.Link>
+                        <NavLink className='NavLinkCss' to="/contact">CONTACT</NavLink>
 
                     </Nav>
 

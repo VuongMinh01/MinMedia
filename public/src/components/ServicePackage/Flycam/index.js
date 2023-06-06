@@ -13,13 +13,13 @@ export default function Flycam() {
                 <Col sm={6} xs={12} >
                     <div className="service-flycam-inform">
 
-                        <h2>GÓI QUAY FLYCAM</h2>
-                        <p>1</p>
-                        <p>2</p>
-                        <p>3</p>
-                        <p>4</p>
-                        <p>5</p>
-                        <p>6</p>
+                        <h1>GÓI QUAY FLYCAM</h1>
+                        <h3>FLYCAM WEDDING</h3>
+                        <h3>FLYCAM TEAM BUILDING</h3>
+                        <h3>3 TRIỆU VNĐ</h3>
+                        <h3>ĐẢM BẢO ĐẦU RA SẢN PHẨM</h3>
+                        <p></p>
+                        <p></p>
                     </div>
                 </Col>
                 <Col sm={6} xs={12}>

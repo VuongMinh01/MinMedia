@@ -19,6 +19,7 @@ export default function Album2() {
                     <Row >
                         <Col sm={12} xs={12}>
                             <Image className='Image'
+                                width={'100%'}
 
                                 src={Test1} alt={Test1}
                             ></Image>
@@ -27,14 +28,15 @@ export default function Album2() {
                     <Row>
                         <Col sm={4} xs={12}>
                             <Image className='Image'
-                                width={360}
+                                width={'100%'}
                                 height={360}
                                 src={Test1} alt={Test1}
                             ></Image>
                         </Col>
                         <Col sm={4} xs={12}>
                             <Image className='Image'
-                                src={Test2} alt={Test2} width={360}
+                                src={Test2} alt={Test2}
+                                width={'100%'}
                                 height={360} ></Image>
 
                         </Col>
@@ -42,7 +44,9 @@ export default function Album2() {
                             <Image
 
                                 className='Image'
-                                src={Test3} alt={Test3} width={360}
+                                src={Test3} alt={Test3}
+                                width={'100%'}
+
                                 height={360} ></Image>
 
                         </Col>

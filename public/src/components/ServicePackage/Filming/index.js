@@ -17,24 +17,26 @@ export default function Filming() {
                         <div className="service-filming-inform">
 
                             <h2>GÓI QUAY TRUYỀN THỐNG</h2>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <p>1 MÁY QUAY TRUYỀN THỐNG LỄ - TIỆC SÁNG TRƯA</p>
+                            <p>3 TRIỆU 500 VNĐ</p>
+                            <p>1 MÁY QUAY TRUYỀN THỐNG LỄ - TIỆC SÁNG CHIỀU</p>
+                            <p>3 TRIỆU 500 VND</p>
+                            <p>2 MÁY QUAY TRUYỀN THỐNG LỄ + TIỆC</p>
+                            <p>5 TRIỆU 500 VNĐ</p>
+                            <h4>RA SẢN PHẨM HOÀN THIỆN</h4>
                         </div>
                     </Col>
                     <Col sm={6} xs={12} >
                         <div className="service-filming-inform">
 
                             <h2>GÓI QUAY PHÓNG SỰ</h2>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <p>1 MÁY QUAY PHÓNG SỰ LỄ - TIỆC SÁNG TRƯA</p>
+                            <p>3 TRIỆU 500 VNĐ</p>
+                            <p>1 MÁY QUAY PHÓNG SỰ  LỄ - TIỆC SÁNG CHIỀU</p>
+                            <p>4 TRIỆU 500 VND</p>
+                            <p>2 MÁY QUAY PHÓNG SỰ  LỄ + TIỆC</p>
+                            <p>7 TRIỆU 500 VNĐ</p>
+                            <h4>RA SẢN PHẨM HOÀN THIỆN</h4>
                         </div>
                     </Col>
                 </Row>
@@ -43,7 +45,7 @@ export default function Filming() {
 
                         <center>
 
-                            <h3>Phim truyền thống</h3>
+                            <h3>PHIM TRUYỀN THỐNG</h3>
                         </center>
                         <ReactPlayer
                             url='https://www.youtube.com'
@@ -57,7 +59,7 @@ export default function Filming() {
                     </Col>
                     <Col sm={12} xs={12}>
                         <center>
-                            <h3>Phim phóng sự</h3>
+                            <h3>PHIM PHÓNG SỰ</h3>
                         </center>
                         <ReactPlayer
                             url='https://www.youtube.com'

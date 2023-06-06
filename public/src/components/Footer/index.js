@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import { MDBIcon } from 'mdbreact';
+import { Link } from 'react-router-dom';
 import PhoneRing from '../../components/PhoneRing'
 export default function FooterTest() {
     return (
@@ -39,29 +40,29 @@ export default function FooterTest() {
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
                             <p>
-                                <a href='/' className='text-reset'>
+                                <Link to='/' className='text-reset'>
                                     Home
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='/service' className='text-reset'>
+                                <Link to='/service' className='text-reset'>
                                     Services
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='/videos' className='text-reset'>
+                                <Link to='/videos' className='text-reset'>
                                     Videos
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='/album' className='text-reset'>
+                                <Link to='/album' className='text-reset'>
                                     Albums
-                                </a>
+                                </Link>
                             </p>
                             <p>
-                                <a href='/contact' className='text-reset'>
+                                <Link to='/contact' className='text-reset'>
                                     Contact
-                                </a>
+                                </Link>
                             </p>
                         </MDBCol>
 

@@ -12,7 +12,7 @@ export default function Videos() {
                 <center>  <h3>MỘT SỐ VIDEO NỔI BẬT CỦA CHÚNG TÔI</h3></center>
 
                 <Row>
-                    <center><h3>VIDEO Phóng sự</h3></center>
+                    <center><h3>CẢNH QUAY NGÀY CƯỚI</h3></center>
                     <Col sm={6} xs={12}>
                         <ReactPlayer
                             className='video'
@@ -39,7 +39,7 @@ export default function Videos() {
 
                 </Row>
                 <Row>
-                    <center><h3>VIDEO Phóng sự</h3></center>
+                    <center><h3>CẢNH QUAY PHÓNG SỰ</h3></center>
                     <Col sm={6} xs={12}>
                         <ReactPlayer
                             className='video'

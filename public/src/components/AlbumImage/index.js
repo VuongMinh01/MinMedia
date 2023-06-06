@@ -23,6 +23,7 @@ export default function AlbumImage() {
                 <Col sm={12} xs={12}>
                     <Image className='Image'
                         preview={false}
+                        width={'100%'}
 
                         src={Test1} alt={Test1}
                     ></Image>
@@ -33,7 +34,7 @@ export default function AlbumImage() {
                     <Image className='Image'
                         onClick={Album1}
 
-                        width={360}
+                        width={'100%'}
                         height={360}
                         src={Test1} alt={Test1}
                     ></Image>
@@ -42,7 +43,7 @@ export default function AlbumImage() {
                     <Image className='Image'
                         onClick={Album2}
 
-                        src={Test2} alt={Test2} width={360}
+                        src={Test2} alt={Test2} width={'100%'}
                         height={360} ></Image>
 
                 </Col>
@@ -51,7 +52,7 @@ export default function AlbumImage() {
                         onClick={Album3}
 
                         className='Image'
-                        src={Test3} alt={Test3} width={360}
+                        src={Test3} alt={Test3} width={'100%'}
                         height={360} ></Image>
 
                 </Col>

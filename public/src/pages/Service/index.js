@@ -3,6 +3,8 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import ServicesPage from '../../components/ServicesPage';
 import ScrollToTop from "../../components/ScrollToTop";
+import ServiceImage from '../../components/ServiceImage';
+import '../../css/Service.css'
 export default function Service() {
     useEffect(() => {
         document.title = 'Min Media | Service';
@@ -13,8 +15,11 @@ export default function Service() {
             <div>
                 <Header />
             </div>
-            <div>
+            <div >
                 <ServicesPage />
+            </div>
+            <div>
+                <ServiceImage />
             </div>
             <div>
                 <Footer />

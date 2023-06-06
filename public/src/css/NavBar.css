@@ -9,7 +9,16 @@
 }
 
 .homeNav {
-    background-color: #EDBB99;
+    background-color: #F6D389;
     border-radius: 10px;
     border: solid 0.1px;
+}
+
+.NavLinkCss {
+    padding: 10px;
+    color: black;
+}
+
+.NavLinkCss:hover {
+    color: red;
 }

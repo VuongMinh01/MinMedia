@@ -15,7 +15,7 @@ export default function HomeContact() {
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="map-marker-alt" size='3x' />
                                 <h4>ADDRESS</h4>
-                                <p>........</p>
+                                <p>Hóc Môn, Tp Hồ Chí Minh</p>
                             </Col>
                             <Col sm={6} xs={12}>
                                 <MDBIcon far icon="clock" size='3x' />
@@ -25,7 +25,7 @@ export default function HomeContact() {
                             </Col>
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="envelope" size='3x' />
-                                <h4>EMAIL</h4>
+                                <h4>MAIL</h4>
                                 <p>PHANDUCTHIEN@gmail.com</p>
 
                             </Col>
@@ -33,7 +33,7 @@ export default function HomeContact() {
                                 <MDBIcon fas icon="phone" size='3x' />
 
                                 <h4>PHONE</h4>
-                                <p>+84........</p>
+                                <p>0703427959</p>
 
                             </Col>
                         </Row>

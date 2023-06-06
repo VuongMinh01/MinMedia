@@ -6,7 +6,6 @@ import HomeVideo2 from '../../components/HomeVideo2'
 
 import HomeImage from '../../components/HomeImage'
 import ScrollToTop from '../../components/ScrollToTop'
-import PhoneRing from '../../components/PhoneRing'
 export default function Home() {
 
     useEffect(() => {
@@ -25,7 +24,7 @@ export default function Home() {
 
                 <HomeVideo />
             </div>
-            <div style={{ marginTop: '5px', backgroundColor: '#fff' }}>
+            <div >
 
                 <HomeImage />
             </div>

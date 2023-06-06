@@ -7,13 +7,13 @@ import Test3 from '../../assets/SBIN0804.JPG'
 import '../../css/HomeImage.css'
 export default function HomeImage() {
     return (
-        <Container fluid>
+        <Container fluid >
             <Row >
                 {/* 3 khung ảnh đầu tiên */}
-                <Col sm={4} xs={12}>
+                <Col sm={4} xs={12} >
                     <Image className='Image'
                         preview={false}
-                        width={360}
+                        width={'100%'}
                         height={360}
                         src={Test1} alt={Test1}
                     ></Image>
@@ -22,7 +22,8 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test2} alt={Test2} width={360}
+                        src={Test2} alt={Test2}
+                        width={'100%'}
                         height={360} ></Image>
 
                 </Col>
@@ -30,7 +31,8 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
+                        src={Test3} alt={Test3}
+                        width={'100%'}
                         height={360} ></Image>
 
                 </Col>
@@ -43,13 +45,15 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
+                        src={Test3} alt={Test3}
+                        width={'100%'}
                     ></Image>
 
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
+                        src={Test3} alt={Test3}
+                        width={'100%'}
                     ></Image>
 
                 </Col>
@@ -57,8 +61,9 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
-                        height={480} ></Image>
+                        src={Test3} alt={Test3}
+                        width={'100%'}
+                        height={610} ></Image>
 
                 </Col>
                 <Col sm={4} xs={12}>
@@ -66,14 +71,16 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
-                        height={240} ></Image>
+                        src={Test3} alt={Test3}
+                        width={'100%'}
+                    ></Image>
 
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
-                        height={240} ></Image>
+                        src={Test3} alt={Test3}
+                        width={'100%'}
+                    ></Image>
 
                 </Col>
             </Row>
@@ -82,7 +89,7 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        width={360}
+                        width={'100%'}
                         height={360}
                         src={Test1} alt={Test1}
                     ></Image>
@@ -91,7 +98,8 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test2} alt={Test2} width={360}
+                        src={Test2} alt={Test2}
+                        width={'100%'}
                         height={360} ></Image>
 
                 </Col>
@@ -99,7 +107,8 @@ export default function HomeImage() {
                     <Image className='Image'
                         preview={false}
 
-                        src={Test3} alt={Test3} width={360}
+                        src={Test3} alt={Test3}
+                        width={'100%'}
                         height={360} ></Image>
 
                 </Col>
