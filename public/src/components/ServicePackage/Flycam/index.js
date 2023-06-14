@@ -17,7 +17,7 @@ export default function Flycam() {
                         <h1>GÓI QUAY FLYCAM</h1>
                         <h3>FLYCAM WEDDING</h3>
                         <h3>FLYCAM TEAM BUILDING</h3>
-                        <h3>3 TRIỆU VNĐ</h3>
+                        <h3>3.000.000 VND</h3>
                         <h3>ĐẢM BẢO ĐẦU RA SẢN PHẨM</h3>
                         <p></p>
                         <p></p>

@@ -14,7 +14,7 @@ export default function Header() {
                         <Image
                             width={"20%"}
                             src={Minmedia} alt={Minmedia}
-                            style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }}
+                            style={{ marginLeft: 'auto', marginRight: 'auto', marginBottom: 'auto', marginTop: 'auto', display: 'block' }}
                         >
                         </Image>
                     </Col>

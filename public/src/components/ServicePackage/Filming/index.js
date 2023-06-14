@@ -19,11 +19,11 @@ export default function Filming() {
 
                             <h2>GÓI QUAY TRUYỀN THỐNG</h2>
                             <p>1 MÁY QUAY TRUYỀN THỐNG LỄ - TIỆC SÁNG TRƯA</p>
-                            <p>3 TRIỆU 500 VNĐ</p>
+                            <p>2.500.000 VND</p>
                             <p>1 MÁY QUAY TRUYỀN THỐNG LỄ - TIỆC SÁNG CHIỀU</p>
-                            <p>3 TRIỆU 500 VND</p>
+                            <p>3.500.000 VND</p>
                             <p>2 MÁY QUAY TRUYỀN THỐNG LỄ + TIỆC</p>
-                            <p>5 TRIỆU 500 VNĐ</p>
+                            <p>5.500.000 VND</p>
                             <h4>RA SẢN PHẨM HOÀN THIỆN</h4>
                         </div>
                     </Col>
@@ -32,11 +32,11 @@ export default function Filming() {
 
                             <h2>GÓI QUAY PHÓNG SỰ</h2>
                             <p>1 MÁY QUAY PHÓNG SỰ LỄ - TIỆC SÁNG TRƯA</p>
-                            <p>3 TRIỆU 500 VNĐ</p>
+                            <p>3.500.000 VND</p>
                             <p>1 MÁY QUAY PHÓNG SỰ  LỄ - TIỆC SÁNG CHIỀU</p>
-                            <p>4 TRIỆU 500 VND</p>
+                            <p>4.500.000 VND</p>
                             <p>2 MÁY QUAY PHÓNG SỰ  LỄ + TIỆC</p>
-                            <p>7 TRIỆU 500 VNĐ</p>
+                            <p>7.500.000 VND</p>
                             <h4>RA SẢN PHẨM HOÀN THIỆN</h4>
                         </div>
                     </Col>
