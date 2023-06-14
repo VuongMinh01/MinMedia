@@ -1,9 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
-import Test1 from '../../../assets/SBIN0813.jpg'
-import Test2 from '../../../assets/SBIN0813.jpg'
-import Test3 from '../../../assets/SBIN0837.jpg'
+import Img1 from '../../../assets/05/SBIN1536.jpg'
+import Img2 from '../../../assets/05/SBIN1630.JPG'
+import Img3 from '../../../assets/05/SBIN0804.JPG'
+import Img4 from '../../../assets/05/SBIN0713.JPG'
+import Img5 from '../../../assets/05/SBIN0632.jpg'
+import Img6 from '../../../assets/05/SBIN1598.JPG'
+import Img7 from '../../../assets/05/SBIN0657.jpg'
+
 import Header from '../../../components/Header'
 import Footer from '../../../components/Footer'
 
@@ -20,8 +25,7 @@ export default function Album2() {
                         <Col sm={12} xs={12}>
                             <Image className='Image'
                                 width={'100%'}
-
-                                src={Test1} alt={Test1}
+                                src={Img1} alt={Img1}
                             ></Image>
                         </Col>
                     </Row>
@@ -30,13 +34,14 @@ export default function Album2() {
                             <Image className='Image'
                                 width={'100%'}
                                 height={360}
-                                src={Test1} alt={Test1}
+                                src={Img2} alt={Img2}
                             ></Image>
                         </Col>
                         <Col sm={4} xs={12}>
                             <Image className='Image'
-                                src={Test2} alt={Test2}
+                                src={Img3} alt={Img3}
                                 width={'100%'}
+
                                 height={360} ></Image>
 
                         </Col>
@@ -44,7 +49,34 @@ export default function Album2() {
                             <Image
 
                                 className='Image'
-                                src={Test3} alt={Test3}
+                                src={Img4} alt={Img4}
+                                width={'100%'}
+
+                                height={360} ></Image>
+
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col sm={4} xs={12}>
+                            <Image className='Image'
+                                width={'100%'}
+                                height={360}
+                                src={Img5} alt={Img5}
+                            ></Image>
+                        </Col>
+                        <Col sm={4} xs={12}>
+                            <Image className='Image'
+                                src={Img6} alt={Img6}
+                                width={'100%'}
+
+                                height={360} ></Image>
+
+                        </Col>
+                        <Col sm={4} xs={12}>
+                            <Image
+
+                                className='Image'
+                                src={Img7} alt={Img7}
                                 width={'100%'}
 
                                 height={360} ></Image>

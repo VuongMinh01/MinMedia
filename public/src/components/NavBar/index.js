@@ -18,13 +18,13 @@ function NavBar() {
 
                         navbarScroll
                     >
-                        <NavLink className='NavLinkCss' to="/"  >HOME</NavLink>
-                        <NavLink className='NavLinkCss' to="/service">SERVICES</NavLink>
-                        <NavLink className='NavLinkCss' to="/videos">VIDEOS</NavLink>
+                        <NavLink className='NavLinkCss' to="/"  >Trang chủ</NavLink>
+                        <NavLink className='NavLinkCss' to="/service">Dịch vụ</NavLink>
+                        <NavLink className='NavLinkCss' to="/videos">Videos</NavLink>
 
-                        <NavLink className='NavLinkCss' to="/albums">ALBUMS</NavLink>
+                        <NavLink className='NavLinkCss' to="/albums">Albums</NavLink>
 
-                        <NavLink className='NavLinkCss' to="/contact">CONTACT</NavLink>
+                        <NavLink className='NavLinkCss' to="/contact">Liên lạc</NavLink>
 
                     </Nav>
 

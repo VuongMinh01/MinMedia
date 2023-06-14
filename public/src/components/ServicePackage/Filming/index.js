@@ -46,12 +46,12 @@ export default function Filming() {
 
                         <center>
 
-                            <h3>PHIM TRUYỀN THỐNG</h3>
+                            <h3 style={{ padding: '10px' }}>PHIM TRUYỀN THỐNG</h3>
                         </center>
                         <ReactPlayer
-                            url='https://www.youtube.com'
+                            url='https://www.youtube.com/watch?v=5pSaDc7oSDo&t=3s'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
 
@@ -60,12 +60,12 @@ export default function Filming() {
                     </Col>
                     <Col sm={12} xs={12}>
                         <center>
-                            <h3>PHIM PHÓNG SỰ</h3>
+                            <h3 style={{ padding: '10px' }}>PHIM PHÓNG SỰ</h3>
                         </center>
                         <ReactPlayer
-                            url='https://www.youtube.com'
+                            url='https://www.youtube.com/watch?v=cC4Zd-qYHa0&t=262s'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
                         />

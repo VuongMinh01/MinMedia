@@ -15,9 +15,10 @@
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-style: bold;
+    font-weight: bolder;
 }
 
 h3 {

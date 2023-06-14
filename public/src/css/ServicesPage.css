@@ -32,29 +32,31 @@
 
 }
 
-
-
-
-
-
 .col-inform {
     padding: 10px;
 }
 
 .col-inform h1 {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-
+    font-style: bold;
+    font-weight: bolder;
 
 }
 
 .background-phim {
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 50px;
+}
+
+.col-inform p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 22px;
+
 }

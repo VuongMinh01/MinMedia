@@ -8,9 +8,9 @@ export default function HomeVideo2() {
 
         <Container fluid>
             <ReactPlayer
-                url='https://www.youtube.com'
+                url='https://www.youtube.com/watch?v=ICkNGbdr74U&t=83s'
                 width="100%"
-                height="420px"
+                height="600px"
                 playing={false}
                 controls={true}
 

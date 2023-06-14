@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
-import Test1 from '../../assets/SBIN0813.jpg'
-import Test2 from '../../assets/SBIN0837.jpg'
-import Test3 from '../../assets/SBIN0804.JPG'
+import Img1 from '../../assets/03/SBIN0602.jpg'
+import Img03 from '../../assets/03/SBIN0626.jpg'
+import Img05 from '../../assets/05/SBIN1223.JPG'
+import Img04 from '../../assets/04/ABIN7967.jpg'
+
 import { useNavigate } from "react-router-dom";
 export default function AlbumImage() {
     const navigate = useNavigate();
@@ -26,7 +28,7 @@ export default function AlbumImage() {
                         preview={false}
                         width={'100%'}
 
-                        src={Test1} alt={Test1}
+                        src={Img1} alt={Img1}
                     ></Image>
                 </Col>
             </Row>
@@ -37,14 +39,14 @@ export default function AlbumImage() {
 
                         width={'100%'}
                         height={360}
-                        src={Test1} alt={Test1}
+                        src={Img03} alt={Img03}
                     ></Image>
                 </Col>
                 <Col sm={4} xs={12}>
                     <Image className='Image'
                         onClick={Album2}
 
-                        src={Test2} alt={Test2} width={'100%'}
+                        src={Img05} alt={Img05} width={'100%'}
                         height={360} ></Image>
 
                 </Col>
@@ -53,7 +55,7 @@ export default function AlbumImage() {
                         onClick={Album3}
 
                         className='Image'
-                        src={Test3} alt={Test3} width={'100%'}
+                        src={Img04} alt={Img04} width={'100%'}
                         height={360} ></Image>
 
                 </Col>

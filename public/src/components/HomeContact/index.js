@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
 import { MDBIcon } from 'mdbreact';
-import Test1 from '../../assets/ducthien.jpg'
 import '../../css/HomeContact.css'
+import ContactFB from '../../assets/facebook.jpg'
 export default function HomeContact() {
     return (
         <>
@@ -15,25 +15,26 @@ export default function HomeContact() {
                         <Row>
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="map-marker-alt" size='3x' />
-                                <h4>ADDRESS</h4>
+                                <h4>Địa chỉ</h4>
                                 <p>Hóc Môn, Tp Hồ Chí Minh</p>
                             </Col>
                             <Col sm={6} xs={12}>
                                 <MDBIcon far icon="clock" size='3x' />
-                                <h4>OPENING HOURS</h4>
-                                <p>MONDAY to SATURDAY: 8h đến 20h</p>
+                                <h4>Thời gian làm việc</h4>
+                                <p>8h đến 20h các ngày trong tuần</p>
 
                             </Col>
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="envelope" size='3x' />
                                 <h4>MAIL</h4>
-                                <p>PHANDUCTHIEN@gmail.com</p>
+                                <p>thienminmedia@ldg.edu.vn
+                                </p>
 
                             </Col>
                             <Col sm={6} xs={12}>
                                 <MDBIcon fas icon="phone" size='3x' />
 
-                                <h4>PHONE</h4>
+                                <h4>Số điện thoại</h4>
                                 <p>0703427959</p>
 
                             </Col>
@@ -43,7 +44,8 @@ export default function HomeContact() {
                         <Image className="Image"
                             width={360}
                             height={360}
-                            src={Test1} alt={Test1}
+                            preview={false}
+                            src={ContactFB} alt={ContactFB}
                         ></Image>
                     </Col>
                 </Row>

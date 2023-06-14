@@ -27,7 +27,6 @@ export default function ServicesPage() {
                         <div className="service-inform">
                             <h1>CHỤP ẢNH</h1>
                             <h4>GÓI CHỤP TRUYỀN THỐNG</h4>
-
                             <h4>GÓI CHỤP PHÓNG SỰ</h4>
                             <h4>LỄ - TIỆC</h4>
                             <h4>SÁNG - TRƯA - CHIỀU</h4>
@@ -64,7 +63,6 @@ export default function ServicesPage() {
                         <div className="service-inform">
 
                             <h1>FLYCAM</h1>
-
                             <h4>GÓI FLYCAM NGÀY CƯỚI</h4>
                             <h4>LỄ - TIỆC</h4>
                             <h4>SÁNG - TRƯA - CHIỀU</h4>

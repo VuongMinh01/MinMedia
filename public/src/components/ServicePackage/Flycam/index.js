@@ -25,7 +25,7 @@ export default function Flycam() {
                 </Col>
                 <Col sm={6} xs={12}>
                     <ReactPlayer
-                        url='https://www.youtube.com'
+                        url='https://www.youtube.com/watch?v=Zccd25N7tRE&t=2s'
                         width="100%"
                         height="500px"
                         playing={false}

@@ -33,23 +33,22 @@ export default function FooterTest() {
                                 Min Media
                             </h6>
                             <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit.
+                                Min Media cung cấp dịch vụ Quay-Chụp Lễ - Tiệc đám cưới, Phóng sự cưới, Event, Tiệc sinh nhật, Lễ khai trương, TeamBuilding
                             </p>
                         </MDBCol>
 
 
 
                         <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+                            <h6 className='text-uppercase fw-bold mb-4'>Đường dẫn</h6>
                             <p>
                                 <Link to='/' className='text-reset'>
-                                    Home
+                                    Trang chủ
                                 </Link>
                             </p>
                             <p>
                                 <Link to='/service' className='text-reset'>
-                                    Services
+                                    Dịch vụ
                                 </Link>
                             </p>
                             <p>
@@ -64,20 +63,21 @@ export default function FooterTest() {
                             </p>
                             <p>
                                 <Link to='/contact' className='text-reset'>
-                                    Contact
+                                    Liên lạc
                                 </Link>
                             </p>
                         </MDBCol>
 
                         <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+                            <h6 className='text-uppercase fw-bold mb-4'>Liên lạc</h6>
                             <p>
                                 <MDBIcon icon="home" className="me-2" />
-                                Hoc Mon, Ho Chi Minh City
+                                Hóc Môn, Tp.Hồ Chí Minh
                             </p>
                             <p>
                                 <MDBIcon icon="envelope" className="me-3" />
-                                info@example.com
+                                thienminmedia@ldg.edu.vn
+
                             </p>
                             <p>
                                 <MDBIcon icon="phone" className="me-3" /> 0703427959

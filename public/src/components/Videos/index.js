@@ -9,16 +9,19 @@ export default function Videos() {
 
             <Container fluid >
 
-                <center>  <h3>MỘT SỐ VIDEO NỔI BẬT CỦA CHÚNG TÔI</h3></center>
+                <center>
+                    <h3 style={{ color: 'red', fontSize: '40px', fontFamily: 'bold' }}>
+                        MỘT SỐ VIDEO NỔI BẬT CỦA CHÚNG TÔI
+                    </h3>
+                </center>
 
                 <Row>
-                    <center><h3>CẢNH QUAY NGÀY CƯỚI</h3></center>
                     <Col sm={6} xs={12}>
                         <ReactPlayer
                             className='video'
-                            url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
+                            url='https://www.youtube.com/watch?v=SepvFbHL-VM'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
 
@@ -28,9 +31,9 @@ export default function Videos() {
                         <ReactPlayer
                             className='video'
 
-                            url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
+                            url='https://www.youtube.com/watch?v=7AsV5PoUNpk&t=23s'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
 
@@ -39,13 +42,12 @@ export default function Videos() {
 
                 </Row>
                 <Row>
-                    <center><h3>CẢNH QUAY PHÓNG SỰ</h3></center>
                     <Col sm={6} xs={12}>
                         <ReactPlayer
                             className='video'
-                            url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
+                            url='https://www.youtube.com/watch?v=Y_uZHUQVQhg&t=2s'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
 
@@ -55,9 +57,9 @@ export default function Videos() {
                         <ReactPlayer
                             className='video'
 
-                            url='https://www.youtube.com/watch?v=LrNY5FdFcq8'
+                            url='https://www.youtube.com/watch?v=J8xmEbqNZaw&t=8s'
                             width="100%"
-                            height="420px"
+                            height="500px"
                             playing={false}
                             controls={true}
 
@@ -65,7 +67,6 @@ export default function Videos() {
                     </Col>
 
                 </Row>
-
 
             </Container >
 

@@ -5,7 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
 
 import '../../../css/Picture.css'
-import Test1 from '../../../assets/SBIN0813.jpg'
+import Img15 from '../../../assets/Service/Picture/TruyenThong.jpg'
+import Img16 from '../../../assets/Service/Picture/PhongSu.JPG'
+
 export default function Picture() {
     return (
         // Thông tin về gói chụp ảnh
@@ -47,13 +49,16 @@ export default function Picture() {
                         <Col sm={6} xs={12}>
                             <Image className='Image'
 
-                                src={Test1} alt={Test1}
+                                src={Img15} alt={Img15}
+                                preview={false}
                             ></Image>
                         </Col>
                         <Col sm={6} xs={12}>
                             <Image className='Image'
 
-                                src={Test1} alt={Test1}
+                                src={Img16} alt={Img16}
+                                preview={false}
+
                             ></Image>
                         </Col>
                     </Row>
