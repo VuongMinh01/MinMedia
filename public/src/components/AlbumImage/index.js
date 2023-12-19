@@ -61,6 +61,26 @@ export default function AlbumImage() {
                 </Col>
             </Row>
             <Row>
+                <Col sm={6} xs={12}>
+                    <Image className='Image'
+                        onClick={Album1}
+
+                        width={'100%'}
+                        height={600}
+                        src={Img03} alt={Img03}
+                    ></Image>
+                </Col>
+                <Col sm={6} xs={12}>
+                    <Image className='Image'
+                        onClick={Album2}
+
+                        src={Img05} alt={Img05} width={'100%'}
+                        height={600} ></Image>
+
+                </Col>
+
+            </Row>
+            <Row>
 
             </Row>
         </Container>

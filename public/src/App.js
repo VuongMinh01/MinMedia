@@ -12,6 +12,7 @@ import Album3 from './components/Albums/Album3'
 import Picture from './components/ServicePackage/Picture'
 import Filming from './components/ServicePackage/Filming'
 import Flycam from './components/ServicePackage/Flycam'
+import { publicRoute } from "./routes";
 function App() {
   return (
     <div>
@@ -19,8 +20,8 @@ function App() {
 
         <Routes>
 
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/contact" element={<Contact />} />
+          <Route path="/" index element={<Home />} />
           <Route path="/service" element={<Service />} />
           <Route path="/albums" element={<Album />} />
           <Route path="/videos" element={<Video />} />
@@ -30,7 +31,14 @@ function App() {
           <Route path="/ServicePackage/Picture" element={<Picture />} />
           <Route path="/ServicePackage/Filming" element={<Filming />} />
           <Route path="/ServicePackage/Flycam" element={<Flycam />} />
+          <Route path="/test" element={<Test />} /> */}
 
+          {publicRoute.map((route, index) => {
+            const Page = route.component;
+            return <Route key={index} path={route.path} element={<Page />} />
+
+
+          })}
 
         </Routes>
       </BrowserRouter>

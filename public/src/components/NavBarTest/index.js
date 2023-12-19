@@ -4,20 +4,24 @@ import Navbar from 'react-bootstrap/Navbar';
 import React from 'react';
 import '../../css/NavBar.css'
 import { NavLink } from "react-router-dom";
-
-function NavBar() {
+import Logo from '../../assets/logo.jpg'
+import { Image } from 'antd'
+export default function NavBarTest() {
     return (
         // Thanh menu chính, nằm trong page header
         <Navbar bg="" expand="lg" >
             <Container fluid className='homeNav'
             >
                 <Navbar.Toggle aria-controls="navbarScroll" />
+
+
                 <Navbar.Collapse id="navbarScroll" >
                     <Nav
-                        className="me-auto my-2 my-lg-0 nav-customr"
-
+                        className="me-auto my-2 my-lg-0 nav-customr "
                         navbarScroll
                     >
+
+
                         <NavLink className='NavLinkCss' to="/"  >Trang chủ</NavLink>
                         <NavLink className='NavLinkCss' to="/service">Dịch vụ</NavLink>
                         <NavLink className='NavLinkCss' to="/videos">Videos</NavLink>
@@ -29,9 +33,8 @@ function NavBar() {
                     </Nav>
 
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Container >
+        </Navbar >
     );
 }
 
-export default NavBar;

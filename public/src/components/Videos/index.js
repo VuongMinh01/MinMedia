@@ -40,9 +40,10 @@ export default function Videos() {
                         />
                     </Col>
 
+
                 </Row>
                 <Row>
-                    <Col sm={6} xs={12}>
+                    <Col sm={4} xs={12}>
                         <ReactPlayer
                             className='video'
                             url='https://www.youtube.com/watch?v=Y_uZHUQVQhg&t=2s'
@@ -53,7 +54,7 @@ export default function Videos() {
 
                         />
                     </Col>
-                    <Col sm={6} xs={12}>
+                    <Col sm={4} xs={12}>
                         <ReactPlayer
                             className='video'
 
@@ -65,7 +66,18 @@ export default function Videos() {
 
                         />
                     </Col>
+                    <Col sm={4} xs={12}>
+                        <ReactPlayer
+                            className='video'
 
+                            url='https://www.youtube.com/watch?v=7AsV5PoUNpk&t=23s'
+                            width="100%"
+                            height="500px"
+                            playing={false}
+                            controls={true}
+
+                        />
+                    </Col>
                 </Row>
 
             </Container >

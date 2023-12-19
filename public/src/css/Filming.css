@@ -1,17 +1,10 @@
 .service-filming-inform {
     text-align: center;
-    width: auto;
-    height: 500px;
-    background-color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    flex-direction: column;
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 100px;
+
     box-shadow: none;
     padding: 5px;
+    list-style-type: none;
 }
 
 h2 {
@@ -25,4 +18,32 @@ h2 {
 .service-filming-inform p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-customr {
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: bolder;
+}
+
+.homeNav {
+    background-color: #F6D389;
+    border-radius: 10px;
+    border: solid 0.1px;
+}
+
+.NavLink {
+    padding: 10px;
+    color: black;
+    border: 1px solid blue;
+    background-color: rgb(222, 184, 135);
+    margin: 10px 10px 10px 10px;
+}
+
+.NavLinkCss:hover {
+    color: #F6D389;
 }

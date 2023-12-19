@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Minmedia from '../../assets/minmedia.png'
-import NavBar from '../NavBar'
+import NavBar from '../NavBarScroll'
 import { Divider } from 'antd';
 
 export default function Header() {
@@ -10,6 +10,13 @@ export default function Header() {
             {/* Header bao gồm Logo và Menu */}
             <Container fluid>
                 <Row>
+                    <Col sm={12} xs={12} >
+                        <div >
+                            <NavBar />
+                            <Divider />
+
+                        </div>
+                    </Col>
                     <Col sm={12} xs={12}>
                         <Image
                             width={"20%"}
@@ -18,15 +25,8 @@ export default function Header() {
                         >
                         </Image>
                     </Col>
+                    <Divider />
 
-                    <Col sm={12} xs={12} >
-                        <div >
-                            <Divider />
-                            <NavBar />
-                            <Divider />
-
-                        </div>
-                    </Col>
                 </Row>
             </Container>
         </>
