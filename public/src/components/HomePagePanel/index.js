@@ -14,8 +14,8 @@ export default function HomePagePanel() {
     const PhimPhongSuCuoi = () => {
         navigate('/PhimPhongSuCuoi')
     }
-    const PhimPhongSuTruyenThong = () => {
-        navigate('/PhimPhongSuTruyenThong')
+    const PhimCuoiTruyenThong = () => {
+        navigate('/PhimCuoiTruyenThong')
     }
     const Flycam = () => {
         navigate('/ServicePackage/Flycam')
@@ -80,7 +80,7 @@ export default function HomePagePanel() {
                         <h1>Phim cưới truyền thống </h1>
 
 
-                        <Button onClick={PhimPhongSuTruyenThong} type="primary" block>Xem thêm</Button>
+                        <Button onClick={PhimCuoiTruyenThong} type="primary" block>Xem thêm</Button>
 
                     </div>
                 </Col>

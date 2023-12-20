@@ -17,30 +17,30 @@ export default function AnhPhongSuCuoi() {
                 <Row className="service-filming-inform">
 
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-01</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-01</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-02</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC02">Ảnh PSC-02</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-03</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC03">Ảnh PSC-03</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-04</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-04</NavLink>
                     </Col>
                 </Row>
                 <Row className="service-filming-inform">
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-05</NavLink>
+                        <NavLink className='NavLink' to="/viAnhPhongSuCuoi/Album/PSC01deos">Ảnh PSC-05</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-06</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-06</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-07</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-07</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Ảnh PSC-08</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-08</NavLink>
                     </Col>
                 </Row>
 

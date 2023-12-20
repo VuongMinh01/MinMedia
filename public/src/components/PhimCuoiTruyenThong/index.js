@@ -1,10 +1,10 @@
 import React from "react";
-import Header from '../../components/Header'
-import Footer from '../../components/Footer'
+import Header from '../Header'
+import Footer from '../Footer'
 import { Container, Row, Col } from "react-bootstrap";
 import '../../css/Filming.css'
 import { NavLink } from "react-router-dom";
-export default function PhimPhongSuTruyenThong() {
+export default function PhimCuoiTruyenThong() {
     return (
         // Thông tin về gói quay phim
         <Container fluid>
@@ -17,30 +17,30 @@ export default function PhimPhongSuTruyenThong() {
                 <Row className="service-filming-inform">
 
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-01</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-01</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-02</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-02</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-03</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-03</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-04</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-04</NavLink>
                     </Col>
                 </Row>
                 <Row className="service-filming-inform">
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-05</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-05</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-06</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-06</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-07</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-07</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/videos">Phim PSTT-08</NavLink>
+                        <NavLink className='NavLink' to="/videos">Phim CTT-08</NavLink>
                     </Col>
                 </Row>
 
