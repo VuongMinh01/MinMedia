@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import Logo from '../../assets/minmedia.png'
 import React from 'react';
 import '../../css/Color.css';
-import '../../css/NavBar.css'
+import '../../css/NavBar.css';
 
 function NavScrollExample() {
     return (

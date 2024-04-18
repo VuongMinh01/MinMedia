@@ -1,18 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
-import Img1 from '../../../assets/05/SBIN1536.jpg'
-import Img2 from '../../../assets/05/SBIN1630.JPG'
-import Img3 from '../../../assets/05/SBIN0804.JPG'
-import Img4 from '../../../assets/05/SBIN0713.JPG'
-import Img5 from '../../../assets/05/SBIN0632.jpg'
-import Img6 from '../../../assets/05/SBIN1598.JPG'
-import Img7 from '../../../assets/05/SBIN0657.jpg'
+import Img1 from '../../../assets/APSC/APSC01/SBIN0577.jpg'
+import Img2 from '../../../assets/APSC/APSC01/SBIN0545.jpg'
+import Img3 from '../../../assets/APSC/APSC01/SBIN0626.jpg'
+import Img4 from '../../../assets/APSC/APSC01/SBIN9790.jpg'
+import Img5 from '../../../assets/APSC/APSC01/SBIN9933.jpg'
+import Img6 from '../../../assets/APSC/APSC01/SBIN1432.jpg'
+import Img7 from '../../../assets/APSC/APSC01/SBIN1396.jpg'
+import Header from '../../Header'
+import Footer from '../../Footer'
 
-import Header from '../../../components/Header'
-import Footer from '../../../components/Footer'
-
-export default function PSC02() {
+export default function PSC01() {
     return (
         <>
             <Container fluid >

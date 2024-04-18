@@ -1,21 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Image } from 'antd';
-import Header from '../../../components/Header'
-import Footer from '../../../components/Footer'
-import Img1 from '../../../assets/04/ABIN7286.jpg'
-import Img2 from '../../../assets/04/ABIN7252.jpg'
-import Img3 from '../../../assets/04/ABIN7222.jpg'
-import Img4 from '../../../assets/04/ABIN7089.jpg'
-import Img5 from '../../../assets/04/ABIN6968.jpg'
-import Img6 from '../../../assets/04/ABIN7101.jpg'
-import Img7 from '../../../assets/04/ABIN7994.jpg'
+import Img1 from '../../../assets/APSC/APSC01/SBIN0577.jpg'
+import Img2 from '../../../assets/APSC/APSC01/SBIN0545.jpg'
+import Img3 from '../../../assets/APSC/APSC01/SBIN0626.jpg'
+import Img4 from '../../../assets/APSC/APSC01/SBIN9790.jpg'
+import Img5 from '../../../assets/APSC/APSC01/SBIN9933.jpg'
+import Img6 from '../../../assets/APSC/APSC01/SBIN1432.jpg'
+import Img7 from '../../../assets/APSC/APSC01/SBIN1396.jpg'
+import Header from '../../Header'
+import Footer from '../../Footer'
 
-
-export default function PSC03() {
+export default function PSC01() {
     return (
         <>
-            {/* Album ảnh 3 */}
             <Container fluid >
                 <Header />
                 <Image.PreviewGroup preview={{

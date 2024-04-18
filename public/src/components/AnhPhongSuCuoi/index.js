@@ -26,21 +26,21 @@ export default function AnhPhongSuCuoi() {
                         <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC03">Ảnh PSC-03</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-04</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC04">Ảnh PSC-04</NavLink>
                     </Col>
                 </Row>
                 <Row className="service-filming-inform">
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/viAnhPhongSuCuoi/Album/PSC01deos">Ảnh PSC-05</NavLink>
+                        <NavLink className='NavLink' to="/viAnhPhongSuCuoi/Album/PSC05">Ảnh PSC-05</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-06</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC06">Ảnh PSC-06</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-07</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC07">Ảnh PSC-07</NavLink>
                     </Col>
                     <Col sm={3} xs={12} >
-                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC01">Ảnh PSC-08</NavLink>
+                        <NavLink className='NavLink' to="/AnhPhongSuCuoi/Album/PSC08">Ảnh PSC-08</NavLink>
                     </Col>
                 </Row>
 
